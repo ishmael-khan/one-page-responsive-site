@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Web Coffee App</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+</head>	
+
+<style>
+	body {
+		padding: 40px;
+	}
+
+	.fixed-img {
+		max-height: 600px;
+		overflow: hidden;
+	}
+
+	.item img {
+		width: 100%;
+		height: auto;
+	}
+</style>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="#">Web Coffee</a>
+			</div><!-- /.navbar-header -->
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				
+			<a href="" class="btn btn-info navbar-btn navbar-right">Download Now</a>
+				<ul class="nav navbar-nav">
+					<li><a href="#feedback">Feedback</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#contact-us">Contact Us</a></li>
+				</ul><!-- /.nav navbar-nav -->
+			</div><!-- /.collapse navbar-collapse -->
+		</div><!-- /.container -->
+	</nav><!-- /.navbar navbar-inverse navbar-fixed-top -->
+
+	<!-- jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Web Coffee App</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsam omnis sapiente possimus fugiat neque nostrum, perspiciatis cum amet, adipisci similique optio ducimus unde repellat enim ex temporibus sint reiciendis!</p>
+
+			<div class="btn-group">
+				<a href="" class="btn btn-lg btn-info">Download App</a>
+				<a href="" class="btn btn-lg btn-default">Visit Store</a>
+				<a href="" class="btn btn-lg btn-info">Spread the Word</a>
+			</div><!-- /.btn-group -->
+		</div><!-- /.container -->
+	</div><!-- /.jumbotron -->
+
+	<!-- Feedback-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="feedback">
+				<h2>Feedback<small> Check out the Awesome Feedback!</small></h2>
+			</div><!-- /.page-header -->
+
+			<div class="row">
+				<div class="col-md-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum voluptates itaque tempora reprehenderit voluptate illum inventore fugit, recusandae</p>
+						<footer>John Doe</footer>
+					</blockquote>
+				</div><!-- /.col-lg-4 -->
+				<div class="col-md-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum voluptates itaque tempora reprehenderit voluptate illum inventore fugit, recusandae</p>
+						<footer>John Doe</footer>
+					</blockquote>
+				</div><!-- /.col-lg-4 -->
+				<div class="col-md-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum voluptates itaque tempora reprehenderit voluptate illum inventore fugit, recusandae</p>
+						<footer>John Doe</footer>
+					</blockquote>
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+		</section>
+	</div><!-- /.container -->
+
+	<!-- call to action -->
+	<section>
+		<div class="well">
+			<div class="container text-center">
+				<h3>Subscribe for more free stuff</h3>
+				<p>Enter your name and email:</p>
+
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" class="form-control" id="subscription" placeholder="Your name" />
+					</div><!-- /.form-group -->
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="text" class="form-control" id="email" placeholder="Enter your email" />
+					</div><!-- /.form-group -->
+					<button type="submit" class="btn btn-info">Subscribe</button>
+					<hr>
+				</form><!-- /.form-inline -->
+			</div><!-- /.container text-center -->
+		</div><!-- /.well -->
+	</section>
+
+	<!-- Gallery -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery<small> Check out the Awesome Gallery!</small></h2>
+			</div><!-- /.page-header -->
+
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol><!-- /.carousel-indicators -->
+
+				<div class="carousel-inner">
+					<div class="item active fixed-img">
+						<img src="ttc-bus-blur.jpg" alt="TTC bus traffic" />
+						<div class="carousel-caption">
+							<h3>TTC and Toronto</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div><!-- /.carousel-caption -->
+					</div><!-- /.item -->
+					<div class="item fixed-img">
+						<img src="think-coffee.jpg" alt="Thinking about coffee" />
+						<div class="carousel-caption">
+							<h3>Thinking about coffee</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div><!-- /.carousel-caption -->
+					</div><!-- /.item -->
+					<div class="item fixed-img">
+						<img src="nice-cafe.jpg" alt="Nice cafe" />
+						<div class="carousel-caption">
+							<h3>A nice cafe</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div><!-- /.carousel-caption -->
+					</div><!-- /.item -->
+					<div class="item fixed-img">
+						<img src="coffee-cup-artisan.jpg" alt="Coffee cup artisan" />
+						<div class="carousel-caption">
+							<h3>Artisan coffee</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div><!-- /.carousel-caption -->
+					</div><!-- /.item -->
+				</div><!-- /.carousel-inner -->
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div><!-- /.carousel slide -->
+		</section>
+	</div><!-- /.container -->
+
+	<!-- Features -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+				<h2>Features <small> Here are our coolest features!</small></h2>
+			</div><!-- /.page-header -->
+
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Design your own coffee!</h3>
+					<h5><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia asperiores, facere ex. Consequuntur similique ratione porro debitis exercitationem, consequatur nisi.</strong></h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nesciunt error repellendus, voluptas, molestiae laudantium, earum porro exercitationem qui quidem similique cumque beatae. Molestiae aspernatur dolorem recusandae ducimus minima iste tempore voluptas explicabo expedita maiores mollitia, qui laudantium tempora, fugit tenetur iure consequuntur eos assumenda dolore, ipsum saepe vel veritatis eaque praesentium.</p>
+				</div><!-- /.col-lg-8 -->
+				<div class="col-sm-4">
+					<img src="design-coffee.jpg" alt="" class="img-responsive" />
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+			<hr />
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Order from your phone</h3>
+					<h5><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia asperiores, facere ex. Consequuntur similique ratione porro debitis exercitationem, consequatur nisi.</strong></h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nesciunt error repellendus, voluptas, molestiae laudantium, earum porro exercitationem qui quidem similique cumque beatae. Molestiae aspernatur dolorem recusandae ducimus minima iste tempore voluptas explicabo expedita maiores mollitia, qui laudantium tempora, fugit tenetur iure consequuntur eos assumenda dolore, ipsum saepe vel veritatis eaque praesentium.</p>
+				</div><!-- /.col-lg-8 -->
+				<div class="col-sm-4">
+					<img src="phone-order.jpg" alt="" class="img-responsive" />
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+			<hr />
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Coffee delivered to you</h3>
+					<h5><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia asperiores, facere ex. Consequuntur similique ratione porro debitis exercitationem, consequatur nisi.</strong></h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nesciunt error repellendus, voluptas, molestiae laudantium, earum porro exercitationem qui quidem similique cumque beatae. Molestiae aspernatur dolorem recusandae ducimus minima iste tempore voluptas explicabo expedita maiores mollitia, qui laudantium tempora, fugit tenetur iure consequuntur eos assumenda dolore, ipsum saepe vel veritatis eaque praesentium.</p>
+				</div><!-- /.col-lg-8 -->
+				<div class="col-sm-4">
+					<img src="coffee-to-you.jpg" alt="" class="img-responsive" />
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+
+			<hr />
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-ok"></span>
+							<h4>Another heading</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non maiores facilis consequatur perspiciatis atque.</p>
+						</div><!-- /.panel-body -->
+					</div><!-- /.panel panel-default -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-bullhorn"></span>
+							<h4>Another heading</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non maiores facilis consequatur perspiciatis atque.</p>
+						</div><!-- /.panel-body -->
+					</div><!-- /.panel panel-default -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-thumbs-up"></span>
+							<h4>Another heading</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non maiores facilis consequatur perspiciatis atque.</p>
+						</div><!-- /.panel-body -->
+					</div><!-- /.panel panel-default -->
+				</div><!-- /.col-lg-4 -->
+
+			</div><!-- /.row -->
+		</section>
+	</div><!-- /.container -->
+
+	<!-- FAQ -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="faq">
+				<h2>F.A.Q. <small> Answers to our most asked questions</small></h2>
+			</div><!-- /.page-header -->
+
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+								Question 1: How many cups of coffee should you drink daily?
+							</a>
+						</div><!-- /.panel-title -->
+						<div class="panel-collapse collapse in" id="collapse-1">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reiciendis vero, voluptatum nemo dolores quidem soluta repudiandae optio et quaerat.</p>
+							</div><!-- /.panel-body -->
+						</div><!-- /.panel-collapse collapse -->
+					</div><!-- /.panel-heading -->
+				</div><!-- /.panel panel-default -->
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+								Question 2: Should I buy Arabica or Robusta beans?
+							</a>
+						</div><!-- /.panel-title -->
+						<div class="panel-collapse collapse" id="collapse-2">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reiciendis vero, voluptatum nemo dolores quidem soluta repudiandae optio et quaerat.</p>
+							</div><!-- /.panel-body -->
+						</div><!-- /.panel-collapse collapse -->
+					</div><!-- /.panel-heading -->
+				</div><!-- /.panel panel-default -->
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+								Question 3: Is black coffee better for me? 
+							</a>
+						</div><!-- /.panel-title -->
+						<div class="panel-collapse collapse" id="collapse-3">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reiciendis vero, voluptatum nemo dolores quidem soluta repudiandae optio et quaerat.</p>
+							</div><!-- /.panel-body -->
+						</div><!-- /.panel-collapse collapse -->
+					</div><!-- /.panel-heading -->
+				</div><!-- /.panel panel-default -->
+			</div><!-- /.panel-group -->
+
+		</section>
+	</div><!-- /.container -->
+
+	<!-- Contact Us -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact-us">
+				<h2>Contact Us <small> Send us a message or contact us below</small></h2>
+			</div><!-- /.page-header -->
+
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Address:</p>
+
+					<address>
+						<strong>Web Coffee Inc.</strong><br />
+						1234 Arabica Coffee Lane <br />
+						Toronto, Ontario A4D4G3 <br />
+						Phone: +1 (905)-999-9999
+					</address>
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Name:</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name" placeholder="Enter your name" />
+							</div><!-- /.col-lg-10 -->
+						</div><!-- /.form-group -->
+							
+						<div class="form-group">
+							<label for="user-email" class="col-lg-2 control-label">Email:</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email" placeholder="Enter your email address" />
+							</div><!-- /.col-lg-10 -->
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="user-url" class="col-lg-2 control-label">Your Website:</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-url" placeholder="Enter your website if you have one" />
+							</div><!-- /.col-lg-10 -->
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="user-message" class="col-lg-2 control-label">Your Message:</label>
+							<div class="col-lg-10">
+								<textarea name="user-message" id="user-message" cols="83" rows="10" placeholder="Enter a message here"></textarea>
+							</div><!-- /.col-lg-10 -->
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2"> <!-- col-offset-2 aligns submit button with input text -->
+								<button type="submit" class="btn btn-info">Submit</button>
+							</div><!-- /.col-lg-10 -->
+						</div><!-- /.form-group -->
+
+					</form><!-- /.form-horizontal -->
+				</div><!-- /.col-lg-8 -->
+			</div><!-- /.row -->
+		</section>
+	</div><!-- /.container -->
+<hr />
+
+	<!-- Web Footer -->
+	<footer>
+		<div class="container text-center">
+			<h3>Subscribe for more free stuff</h3>
+			<p>Enter your name and email:</p>
+
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subscription">Subscribe</label>
+					<input type="text" class="form-control" id="subscription" placeholder="Your name" />
+				</div><!-- /.form-group -->
+				<div class="form-group">
+					<label for="email">Email address</label>
+					<input type="text" class="form-control" id="email" placeholder="Enter your email" />
+				</div><!-- /.form-group -->
+				<button type="submit" class="btn btn-info">Subscribe</button>
+				<hr>
+			</form><!-- /.form-inline -->
+			<hr />
+
+			<ul class="list-inline">
+				<li><a href="https://twitter.com/realismailkhan" target="blank_">Twitter</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100005805542608" target="blank_">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/in/khanis/" target="blank_">LinkedIn</a></li>
+			</ul><!-- /.list-inline -->
+
+			<p>&copy; Copyright 2017 Web Coffee Inc.</p>
+			<p>Written and coded by Ismail Khan</p>
+		</div><!-- /.container text-center -->
+	</footer>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
